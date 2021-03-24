@@ -1,0 +1,10 @@
+O que é SOFEA?
+Service-oriented  front-end Architecture.
+-> levar o processamento para o lado do client.
+-> download é feito somente uma vez.
+
+
+O que é REST ?
+->uma forma de integrar sistemas.
+-> uma arquitetura
+->rest full (implementação usando os conceitos de REST)
