@@ -1,0 +1,78 @@
+HTTP: possue duas coisas principaos: request / reponse.
+
+Requisição HTTP:
+	Verbo: GET (pegar), POST(salvar), PUT(ataulizar),...
+	URL: http://host/cidades?uf=MG
+	Headers Aceept, Accept-Language..
+	Parametros: Query(?uf=MG) String, Payload...
+
+Response:
+	Code: 200 OK, 404, 500...
+	Headers: Content-type...
+	Resposra:
+		[{"codigo": 1, "nome": "São Paulo}...]
+
+________________________________________________________
+
+O que é um Recurso ?
+
+
+URL: http://barcelona.com/jogadores/10
+URI: jogadores/10
+-> URI: parte de identifica um recurso.
+
+Representação de um recurso:
+-> pode ter várias reprentações (json, xml, image).
+
+________________________________________________________
+
+Modelo de Maturidade REST:
+
+
+Novel 0:
+- HTTP como transporte
+- unico endpoint pra muitas coisas
+
+Nivel 1:
+- HTTP so como transporte
+- Acessando Recurso correto.
+
+Nivel 2: (ja pode ser considerado REST)
+- Usando Verbos corretamente.
+- Recursos corertos.
+- Filtro por query String
+
+Nivel: 3:
+- No response vem o URI da proxima requisição. (HATEOS)
+- exemplo link da imagem.
+
+HATEOS:
+- propriedaes link que vem no response que pode ter opções de mais ações.
+-  padrão de LINK de HATEOS:  padrão HAL
+
+
+__________________________________________________
+
+
+Segurança:
+- Qual sua informação ?
+- HTTPS
+
+TIPOS DE AUTORIZAÇÃO E AUTENTICAÇÃO:
+-> Autenticação: quem é você ? é você mesmo ?
+-> Autorização: posso acessar ?
+
+	BASIC:
+	DIGEST:
+	CERTIFICADOS:
+	TOKENS: 
+	- tempo de expiraçaõ
+	- permissões em APIs
+	OAuth / 2: 
+	 - Login com SSO (Single Sign-On)
+
+_____________________________________________________
+
+Indepotente: mesmo resultado índependente de quantidade de execução.
+
+_____________________________________________________
