@@ -8,3 +8,14 @@ mvnw:  Maven que bem no projeto.
 FlyWay: script de migração de banco de dados.
 -busca scrips de migração
 src>main>resources>db>migration
+
+
+Repository:  JpaRepository<Categoria, Long> 
+-> ja possui varias funcionalidades com o banco de dados como select...
+
+Resource:  classe que vai expor tudo sobre o recurso.
+
+
+@RestController :Informando um controlador.
+@Autowired: injetar dependência.
+@RequestMapping("/categorias"):
