@@ -5,3 +5,6 @@ new > Spring Starter Project
 pom.xml -> arquivo de configurações do Maven.
 mvnw:  Maven que bem no projeto.
 
+FlyWay: script de migração de banco de dados.
+-busca scrips de migração
+src>main>resources>db>migration
